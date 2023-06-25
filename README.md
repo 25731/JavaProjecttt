@@ -5,6 +5,7 @@ Projekt to prosty serwis REST API, zaimplementowany w Spring Boot. Został on za
 Serwis składa się z jednej encji i udostępnia podstawowe operacje CRUD (Create, Read, Update, Delete). Aby ułatwić uruchomienie i sprawdzenie działania projektu, skonfigurowana jest lekka baza danych in-memory h2.
 
 Konfiguracja Hibernate
+
 Projekt wykorzystuje Hibernate, popularną bibliotekę Java do mapowania obiektowo-relacyjnego (ORM), która ułatwia manipulację i odpytywanie baz danych. W pliku konfiguracyjnym application.properties znajduje się właściwość spring.jpa.hibernate.ddl-auto=update. Ta opcja powoduje, że Hibernate automatycznie dodaje nowe encje jako tabele do bazy danych, jeśli jeszcze nie istnieją, a istniejące schematy tabel są aktualizowane, jeśli encje zostaną zmienione. 
 
 Architektura
